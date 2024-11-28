@@ -1,0 +1,117 @@
+body{
+    background-color:black;
+   
+    
+   
+}
+h2{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+.page{
+    display: flex;
+    justify-content: center;
+}
+.border1 {
+    width: 250px;
+    height: 500px;
+    border: 2px solid  rgb(250, 249, 249);
+    border-radius: 50px;
+    box-shadow: 0px 0px 30px blue;
+    background-color:black;
+    outline: 3px solid blue;
+   
+    
+    
+    
+  }
+  #time{
+    margin-left:25px;
+    margin-top: 10px;
+    color: white;
+   
+  }
+  #cam{
+    border: 2px solid white;
+    height: 10px;
+    width: 50px;
+    border-radius: 6px;
+    margin: auto;
+    margin-top: -15px;
+    background-color:black;
+
+  }
+  #signal{
+  margin-top: -35px;
+  margin-left: 160px;
+  
+  }
+  #battery{
+    margin-top: -43px;
+    margin-left: 200px;
+  }
+  .value{
+    text-align:end;
+    margin-right:10px;
+    margin-left: auto;
+    margin-top: 35px;
+    color: white;
+  }
+  .cal{
+    display: grid;
+    gap: 1px;
+    grid-template-columns:repeat(4,60px);
+    grid-template-rows:repeat(5,60px);
+    justify-content: center;
+    
+  }
+  .pad1,.pad2,.pad3{
+    background-color: gray;
+    color: white;
+    text-align: center;
+    border-radius: 60%;
+    font-size:x-large;
+    padding: 16px;
+    
+  }
+  .pad4,.pad8,.pad12,.pad16,.pad20{
+    background-color: orange;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    padding: 15px;
+    border-radius: 60%;
+  }
+  .pad5,.pad6,.pad7,.pad9,.pad10,.pad11,.pad13,.pad14,.pad15,.pad17,.pad18,.pad19{
+    background-color: rgb(37, 37, 37);
+    color: white;
+    text-align: center;
+    font-size:x-large;
+    padding: 19px;
+    border-radius: 60%;
+
+  }
+  .back{
+    border: 3px solid;
+    width: 80px;
+    margin-left: 85px;
+    margin-top: 4px;
+    border-radius: 50px;
+    color: white;
+    
+    
+  }
+  .cal :hover{
+    background-color:rgb(242, 218, 186);
+  }
+  
+
+ 
+ 
+  
+    
+   
+    
+ 
+  
