@@ -102,7 +102,7 @@ h2{
     
     
   }
-  .cal :hover{
+  .cal :active{
     background-color:rgb(242, 218, 186);
   }
   
